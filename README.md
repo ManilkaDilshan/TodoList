@@ -29,30 +29,30 @@ The backend provides the following API endpoints:
 #### Get all items
 
 ```http
-  GET /api/items
+  GET /api/item
 ```
 
 #### Get item
 
 ```http
-  GET /api/items/${id}
+  GET /api/item/${id}
 ```
 
 #### Add item
 
 ```http
-  POST /api/items
+  POST /api/item
 ```
 
 #### Update item
 
 ```http
-  PUT /api/items/${id}
+  PUT /api/item/${id}
 ```
 
 #### Delete item
 
 ```http
-  DELETE /api/items/${id}
+  DELETE /api/item/${id}
 ```
 
